@@ -16,3 +16,7 @@ wb = xw.Book(WB_PATH)
 #builds connection to worksheer containing the addresses
 ws = wb.sheets[0]
 
+addresses_list_range = ws.range("C3").expand("down")
+
+
+
