@@ -1,5 +1,4 @@
 import os
-from types import NoneType
 from dotenv import load_dotenv
 import xlwings as xw
 
